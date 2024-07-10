@@ -1,0 +1,17 @@
+step1:-setup
+
+First,you need a data source that maps geographical coordinates to country boundaries. A Common  approch is to
+use shapefiles,but for simplicity we will use static data structure in this example.
+
+step-2:- java program structure
+
+create a class 'CountryLocator' with a method 'getCountryCode(double latitude,double longitude) to perform the mapping
+
+step-3:-write unit tests to validate the functionality of 'getCountyCode' method
+
+step 4:- create a performance testing to measure the average execution time
+
+Notes:-
+
+1.Data source:In a real world scenario, you would use more accurate boundary data.
+2.Performance Testing: Adjust 'requestPerSecond' and 'numRequests' values as needed to simulate different load conditions.
